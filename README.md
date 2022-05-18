@@ -8,8 +8,8 @@ Mobaxterm环境配置
 1.  同步路径：C:\Users\Administrator\slash\usr\share\vim
 
 2.  配置说明：
-    * Configuration.ini：pl/sql developer导出全局配置文件
-    * AutoReplace.txt：代码助手模板文件
+    * MobaXterm.ini：MobaXterm导出全局配置文件
+    * vimrc：vim编辑器配置
 
 3.  执行操作：
 ```git
