@@ -3,7 +3,7 @@
 #### 介绍
 PL/SQL Developer环境配置
 
-#### 使用说明
+#### 同步说明
 
 1.  同步路径：C:\Program Files\PLSQL Developer 13\Configsync
 
