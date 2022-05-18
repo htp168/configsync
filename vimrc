@@ -20,8 +20,8 @@ set number
 noremap i k
 noremap k j
 noremap j h
-noremap sl :split
-noremap vl :vsplit
+noremap sl :split<CR>
+noremap vl :vsplit<CR>
 noremap fs :w<CR>
 noremap ss :w!<CR>
 noremap fq :q<CR>
