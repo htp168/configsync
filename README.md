@@ -3,7 +3,7 @@
 #### 介绍
 Mobaxterm环境配置
 
-#### 使用说明
+#### 同步说明
 
 1.  同步路径：C:\Users\Administrator\slash\usr\share\vim
 
