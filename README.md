@@ -17,7 +17,9 @@ Sublime Text环境配置
     * Package Control.user-ca-bundle：
     * Preferences.sublime-settings：
     * Python3.sublime-build：
-    * Snippet.sublime-completions：                            
+    * Snippet.sublime-completions：    
+    * Vintage.sublime-package：sublime中使用vim，更改快捷键映射
+    * Vintage.default.sublime-package：sublime中使用vim系统默认快捷键
     * …… 后续补充
 
 3.  执行操作：
