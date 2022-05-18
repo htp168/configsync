@@ -14,6 +14,7 @@ Mobaxterm环境配置
 3.  执行操作：
     ```git
     // git clone
+    cd C:\Users\Administrator\slash\usr\share
     git clone -b mobax git@gitee.com:htp168/configsync.git vim
     
     // git push
