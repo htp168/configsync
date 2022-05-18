@@ -12,18 +12,18 @@ PL/SQL Developer环境配置：代码助手
     * AutoReplace.txt：代码助手模板文件
 
 3.  执行操作：
-```git
-// git clone
-git clone -b plsql git@gitee.com:htp168/configsync.git Configsync
-
-// git push
-cd Configsync录
-git push -u origin plsql
-
-// git pull
-cd Configsync
-git pull -f origin plsql
-
-```
+    ```git
+    // git clone
+    git clone -b plsql git@gitee.com:htp168/configsync.git Configsync
+    
+    // git push
+    cd Configsync录
+    git push -u origin plsql
+    
+    // git pull
+    cd Configsync
+    git pull -f origin plsql
+    
+    ```
 
 4.  补充：
