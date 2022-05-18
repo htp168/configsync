@@ -28,3 +28,10 @@ noremap fq :q<CR>
 noremap qq :q!<CR>
 noremap wq :wq!<CR>
 noremap zz ZZ
+noremap fe :e<CR>
+noremap ee :e!<CR>
+noremap <C-k> <C-e>
+noremap <C-i> <C-y>
+inoremap // <ESC>
+noremap <C-]> >>
+noremap <C-[> <<
