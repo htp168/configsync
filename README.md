@@ -39,3 +39,4 @@ Sublime Text环境配置
     ```
 
 4.  补充：
+    * 将Vintage.sublime-package放到sublime text<安装目录>\packages下
