@@ -11,6 +11,7 @@ VSCode环境配置
     * extensions.json：已安装的扩展插件配置文件
     * keybindings.json：快捷键配置文件
     * settings.json：VSCode全局配置文件
+    * …… 后续补充
 
 3.  执行操作：
     ```git
