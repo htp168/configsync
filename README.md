@@ -8,8 +8,8 @@ PL/SQL Developer环境配置：代码助手
 1.  同步路径：C:\Program Files\PLSQL Developer 13\Configsync
 
 2.  配置说明：
-    * 
-    * AutoReplace.txt作为代码助手模板文件
+    * Configuration.ini：pl/sql developer导出全局配置文件
+    * AutoReplace.txt：代码助手模板文件
 
 3.  执行操作：
 ```git
