@@ -1,0 +1,13 @@
+[
+	{ "keys": ["alt+shift+down"], "command": "duplicate_line" },
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+	{ "keys": ["ctrl+shift+c"], "command": "git_quick_commit" },
+	{ "keys": ["ctrl+k", "ctrl+m"], "command": "toggle_menu" },
+	{ "keys": ["ctrl+k", "ctrl+s"], "command": "save_all" },
+	{ "keys": ["ctrl+k","ctrl+s"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+f11"], "command": "build" },
+	{ "keys": ["ctrl+t"], "command": "goto_symbol_in_project" },
+	{ "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+	{ "keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false}}
+]

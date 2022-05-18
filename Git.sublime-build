@@ -1,0 +1,5 @@
+{
+	"shell_cmd": "git add ${file} & git commit -m upload & git push -u origin master",
+	"selector": "source.json",
+	"encoding": "UTF-8",
+}
