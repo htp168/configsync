@@ -1,7 +1,7 @@
 ﻿# PL/SQL Developer
 
 #### 介绍
-PL/SQL Developer环境配置：代码助手
+PL/SQL Developer环境配置
 
 #### 使用说明
 
@@ -17,7 +17,7 @@ PL/SQL Developer环境配置：代码助手
     git clone -b plsql git@gitee.com:htp168/configsync.git Configsync
     
     // git push
-    cd Configsync录
+    cd Configsync
     git push -u origin plsql
     
     // git pull
