@@ -22,4 +22,9 @@ noremap k j
 noremap j h
 noremap sl :split
 noremap vl :vsplit
-inoremap <Space><Space> <ESC>
+noremap fs :w<CR>
+noremap ss :w!<CR>
+noremap fq :q<CR>
+noremap qq :q!<CR>
+noremap wq :wq!<CR>
+noremap zz ZZ
