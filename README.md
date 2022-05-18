@@ -12,18 +12,18 @@ Mobaxterm环境配置
     * vimrc：vim编辑器配置
 
 3.  执行操作：
-```git
-// git clone
-git clone -b mobax git@gitee.com:htp168/configsync.git vim
-
-// git push
-cd vim
-git push -u origin mobax
-
-// git pull
-cd vim
-git pull -f origin mobax
-
-```
+    ```git
+    // git clone
+    git clone -b mobax git@gitee.com:htp168/configsync.git vim
+    
+    // git push
+    cd vim
+    git push -u origin mobax
+    
+    // git pull
+    cd vim
+    git pull -f origin mobax
+    
+    ```
 
 4.  补充：将MobaXterm.ini放到MobaXterm程序安装目录
