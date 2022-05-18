@@ -3,7 +3,7 @@
 #### 介绍
 VSCode环境配置
 
-#### 使用说明
+#### 同步说明
 
 1.  同步路径：C:\Users\Administrator\AppData\Roaming\Code\User
 
