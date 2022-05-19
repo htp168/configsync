@@ -32,5 +32,3 @@ noremap fe :e<CR>
 noremap ee :e!<CR>
 noremap <C-k> <C-e>
 noremap <C-i> <C-y>
-noremap <C-]> >>
-noremap <C-[> <<
