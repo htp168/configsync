@@ -8,20 +8,20 @@ Mobaxterm环境配置
 1.  同步路径：<安装目录>\Configsync
 2.  配置说明：
     * vimrc：VIM配置文件
-    * MobaXterm.ini：Mobax全局配置文件
+    * MobaXterm.ini：Mobaxterm全局配置文件
 3.  执行操作：
     ```git
     // git clone
-    cd C:\Users\Administrator\AppData\Roaming\Code
-    git clone -b vscode git@gitee.com:htp168/configsync.git User
+    cd <安装目录>
+    git clone -b mobax git@gitee.com:htp168/configsync.git Configsync
     
     // git push
-    cd User
-    git push -u origin vscode
+    cd Configsync
+    git push -u origin mobax
     
     // git pull
-    cd User
-    git pull -f origin vscode
+    cd Configsync
+    git pull -f origin mobax
     
     ```
 4.  补充：
