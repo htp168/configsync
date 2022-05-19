@@ -32,7 +32,5 @@ noremap wq :wq!<CR>
 noremap zz ZZ
 noremap fe :e<CR>
 noremap ee :e!<CR>
-noremap fn :bn<CR>
-noremap fp :bp<CR>
 noremap <C-k> <C-e>
 noremap <C-i> <C-y>
