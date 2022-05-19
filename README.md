@@ -4,26 +4,29 @@
 Mobaxterm环境配置
 
 #### 同步说明
-1.  同步路径：C:\Users\Administrator\slash\usr\share\vim
 
+1.  同步路径：<安装目录>\Configsync
 2.  配置说明：
-
+    * vimrc：VIM配置文件
+    * MobaXterm.ini：Mobax全局配置文件
 3.  执行操作：
     ```git
     // git clone
-    git clone -b xxx git@gitee.com:htp168/configsync.git Configsync // 生成目录默认为Configsync
+    cd C:\Users\Administrator\AppData\Roaming\Code
+    git clone -b vscode git@gitee.com:htp168/configsync.git User
     
     // git push
-    cd Configsync // 默认存放配置目录
-    git push -u origin xxx // xxx分支对应软件环境名称，如vscode
+    cd User
+    git push -u origin vscode
     
     // git pull
-    cd Configsync // 默认存放配置目录
-    git pull -f origin xxx // xxx分支对应软件环境名称，如vscode
+    cd User
+    git pull -f origin vscode
     
     ```
-
-4.  补充：将MobaXterm.ini放到MobaXterm程序安装目录
+4.  补充：
+    * 将MobaXterm.ini放到MobaXterm程序安装目录
+    * 编辑vimrc文件，将内容复制替换slash/usr/share/vim/vimrc文件（切勿粘贴覆盖原文件）
 
 #### VIM快捷键
 ##### 普通模式
