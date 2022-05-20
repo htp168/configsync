@@ -1,9 +1,0 @@
-{
-	"shell_cmd": "python ${file}",
-	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
-	"selector": "text.html.markdown",
-	"encoding": "UTF-8",
-	"env": {
-		"PYTHONIOENCODING": "UTF-8"
-	}
-}

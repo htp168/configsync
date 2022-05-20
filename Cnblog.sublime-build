@@ -1,0 +1,6 @@
+{
+	"shell_cmd": "cnblogup ${file}",
+	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+	"selector": "text.html.markdows",
+	"encoding": "UTF-8",
+}
