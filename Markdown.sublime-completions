@@ -2,9 +2,23 @@
 	"scope": "text.html.markdown",
 	"completions": [
 		{
-			"trigger": "md", "contents": ">标题：**这里填写标题**\n分类：**这里填写分类**\n标签：**这里填写标签**\n\n# 标题\n\n## 主题一\n1. 内容一\n2. 内容二\n3. 内容三\n\n## 主题二\n1. 内容一\n2. 内容二\n3. 内容三\n\n## 主题三\n1. 内容一\n2. 内容二\n3. 内容三\n"
+			"trigger": "md", "contents": ">标题：**这里填写标题**\n作者：**htp168**\n日期：**这里填写日期**\n分类：**这里填写分类**\n标签：**这里填写标签**\n\n# 标题\n\n## 主题一\n1. 内容一\n2. 内容二\n3. 内容三\n\n## 主题二\n1. 内容一\n2. 内容二\n3. 内容三\n\n## 主题三\n1. 内容一\n2. 内容二\n3. 内容三\n"
 		},{
-			"trigger": "main", "contents": "public static void main(String[] args) {\n\n}"
-		}
+			"trigger": "py", "contents": "```Python\n# 以下是Python代码片段\n\n```"
+		},{
+            "trigger": "java", "contents": "```Java\n// 以下是Java代码片段\n\n```"
+        },{
+            "trigger": "js", "contents": "```JavaScript\n// 以下是JavaScript代码片段\n\n```"
+        },{
+            "trigger": "xml", "contents": "```HTML\n<!-- 以下是HTML代码片段 -->\n\n```"
+        },{
+            "trigger": "css", "contents": "```CSS\n/* 以下是CSS代码片段 */\n\n```"
+        },{
+            "trigger": "json", "contents": "```JSON\n// 以下是JSON代码片段\n\n```"
+        },{
+            "trigger": "sh", "contents": "```bash\n# 以下是Bash代码片段\n\n```"
+        },{
+            "trigger": "sql", "contents": "```SQL\n-- 以下是SQL代码片段 --\n\n```"
+        }
 	]
 }

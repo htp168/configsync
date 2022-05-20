@@ -1,1 +1,4 @@
 ### Sublime Text ###
+.idea/
+__pycache__/
+venv/
