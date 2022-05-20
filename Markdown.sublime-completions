@@ -2,7 +2,7 @@
 	"scope": "text.html.markdown",
 	"completions": [
 		{
-			"trigger": "md", "contents": ">标题：**这里填写标题**\n作者：**htp168**\n日期：**这里填写日期**\n分类：**这里填写分类**\n标签：**这里填写标签**\n\n# 标题\n\n## 主题一\n1. 内容一\n2. 内容二\n3. 内容三\n\n## 主题二\n1. 内容一\n2. 内容二\n3. 内容三\n\n## 主题三\n1. 内容一\n2. 内容二\n3. 内容三\n"
+			"trigger": "md", "contents": "title: \nauthor: htp168\nabbrlink: yyyymmddhh\ndate: yyyy-mm-dd hh:mm:ss\ntags:\n---\n>标题：**这里填写标题**\n作者：**htp168**\n日期：**这里填写日期**\n分类：**这里填写分类**\n标签：**这里填写标签**\n\n# 标题\n\n## 主题一\n1. 内容一\n2. 内容二\n3. 内容三\n\n## 主题二\n1. 内容一\n2. 内容二\n3. 内容三\n\n## 主题三\n1. 内容一\n2. 内容二\n3. 内容三\n"
 		},{
 			"trigger": "py", "contents": "```Python\n# 以下是Python代码片段\n\n```"
 		},{
