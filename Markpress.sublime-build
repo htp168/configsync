@@ -1,6 +1,6 @@
 {
-	"shell_cmd": "cnblogup ${file}",
+	"shell_cmd": "markpress ${file}",
 	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
-	"selector": "text.html.markdows",
+	"selector": "text.html.markdown",
 	"encoding": "UTF-8",
 }
