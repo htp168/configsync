@@ -10,11 +10,10 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		// "Vintage"
 	],
-	"vintage_start_in_command_mode": true,
 	"tab_size": 4,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"update_check": false
+	"update_check": false,
+	"vintage_start_in_command_mode": true
 }

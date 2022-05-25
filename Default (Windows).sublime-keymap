@@ -5,7 +5,6 @@
 	{ "keys": ["ctrl+shift+c"], "command": "git_quick_commit" },
 	{ "keys": ["ctrl+k", "ctrl+m"], "command": "toggle_menu" },
 	{ "keys": ["ctrl+k", "ctrl+s"], "command": "save_all" },
-	{ "keys": ["ctrl+k","ctrl+s"], "command": "toggle_side_bar" },
 	{ "keys": ["ctrl+f11"], "command": "build" },
 	{ "keys": ["ctrl+t"], "command": "goto_symbol_in_project" },
 	{ "keys": ["e", "e"], "command": "revert" },
