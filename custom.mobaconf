@@ -1,16 +1,15 @@
 [Misc]
 PasswordsInRegistry=0
+SessionP=132830132910
 SkinSat=80
 PuTTYSessionsAlreadyImported=1
 DefTextEditor=<MobaTextEditor>
-LogFileFormat=
 StorePasswords=Always
 StoreSSHKeysPassphrases=0
 BackupIni=1
 LogTerminalActivity=0
 LogType=0
 DefaultShell=0
-LogFolder=
 DarknessIntensity=80
 XAuto=0
 XKeepAlive=1
@@ -45,8 +44,15 @@ ReplaceHomeTab=1
 NoTabClose=0
 AllowMultiInstances=0
 SkinName3=Windows dark theme
-LastSession=htp168.gotoftp2.com (htp168) (1)| #130#6%htp168.gotoftp2.com%21%htp168%-1%%0%0%0%0%%21%%%0%0%-1%0%0%0%#MobaFont%10%0%0%-1%15%208,208,208%28,28,28%255,175,0%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0%0%-1#0# #-1
-SessionP=788106395274
+LastSession=127.0.0.1 (root)|#109#0%127.0.0.1%22%root%%0%-1%%%%%0%0%0%%%0%0%0%0%%1080%%0%0%0#MobaFont%10%0%0%-1%15%208,208,208%28,28,28%255,175,0%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0%0%-1#0# #-1
+WhenToPromptForMasterPassword=0
+LogFileFormat=
+LogFolder=
+
+[Passwords]
+mobauser@mobaserver=sci8GTbnReTxp/7tyQFNDi9slduJP2c=
+ssh22:root@127.0.0.1=8Nuj+g==
+root@127.0.0.1=8Nuj+g==
 
 [Font]
 Font2=MobaFont
@@ -91,7 +97,6 @@ UseInternalMobAgent=0
 UseExternalPageant=1
 ValidateEachAgentRequest=0
 ForwardSSHAgentDep=1
-MobAgentKeys=
 SSHCompression=1
 X11Forwarding=0
 DisplaySSHBanner=0
@@ -101,14 +106,11 @@ StrippedDownAlgoList2=1
 GwUse2factor=0
 AutoStartSSHGUI=0
 SSHKeepAlive2=1
-EnableSFTP=0
+EnableSFTP=1
 RemoteMonitoring=0
 ScpPreservesDates=0
 UseGSSAPI=1
-KrbDomain=
-GSSAPICustomLib=
 GSSAPILibNumber=0
-DefaultLoginName=
 SFTPShowDotFiles=1
 SFTPAsciiMode=0
 MonitorHost=1
@@ -122,6 +124,10 @@ MonitorUptime=1
 MonitorUsers=1
 MonitorPartitions=1
 MonitorNetstat=0
+MobAgentKeys=
+KrbDomain=
+GSSAPICustomLib=
+DefaultLoginName=
 
 [Display]
 DisableQuickConnect=1
@@ -160,13 +166,13 @@ XINERAMA=1
 [WindowPos_HTP168_1600_900]
 CompactMode=1
 MonitorCount=1
-Left=532
-Top=154
-Width=980
+Left=163
+Top=152
+Width=1068
 Height=596
 Maximized=0
-SidebarVisible=0
-SidebarWidth=214
+SidebarVisible=1
+SidebarWidth=124
 
 [WindowPos_DESKTOP-80PG5FJ_1280_800]
 CompactMode=1
@@ -194,12 +200,6 @@ Btn10=Settings
 Btn11=Help
 Btn12=X server
 Btn13=Exit
-
-[Bookmarks]
-SubRep=
-ImgNum=42
-htp168.gotoftp2.com (htp168)=#130#6%htp168.gotoftp2.com%21%htp168%-1%%0%0%0%0%%21%%%0%0%-1%0%0%0%#MobaFont%10%0%0%-1%15%208,208,208%28,28,28%255,175,0%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0%0%-1#0# #-1
-htp168.gotoftp2.com (htp168) (1)=#130#6%htp168.gotoftp2.com%21%htp168%-1%%0%0%0%0%%21%%%0%0%-1%0%0%0%#MobaFont%10%0%0%-1%15%208,208,208%28,28,28%255,175,0%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0%0%-1#0# #-1
 
 [EditorWindowPos_1280_800_96]
 Left=-8
@@ -229,22 +229,28 @@ Options=39866307
 WantTabs=1
 WordWrap=1
 
-[Passwords]
-mobauser@mobaserver=sci8GTbnReTxp/7tyQFNDi9slduJP2c=
-ftp:htp168@htp168.gotoftp2.com=sY4UPkzseogO5w==
-ssh22:root@192.168.0.88=6mQ27xVg3JO41Bng/zg=
-root@192.168.0.88=6mQ27xVg3JO41Bng/zg=
-ssh22:admin@192.168.0.88=6mQ27xVg3JO41Bng/zg=
-admin@192.168.0.88=6mQ27xVg3JO41Bng/zg=
-ssh22:root@127.0.0.1=8Nuj+g==
-root@127.0.0.1=8Nuj+g==
+[Sesspass]
+Administrator@HTP168=AQAAAC/euAOk55JEnTbqRiDc7j4AAAAAAgAAAAAAEGYAAAABAAAgAAAAc044bPlD/SqFjadkE3H6ZrEZVjV7niHLgkNZRlbXQRcAAAAADoAAAAACAAAgAAAATZ+1BPqX1sxklZS7EgxrUHvdeaIc7VtQvzBRqfLbBNhgAAAAImHSgedeDo7Wa09JbbcmCaiuQNP3IYqP9vx61UMUAEimZitRjjolSxEbSfrqThdHn+yK52nCGkM+tYkUYWhvlz7U+CaHM7xUDaCc3jYuLXzJw9rjvt4AGEQe9NlVw/r3QAAAABM01CnTEWnp4VHHRSqkAHutFD1NzsUcGpegOZ23+OsUnKD3m6MjpIOy/PPcN0Fp2FHw+fKRP3aKbiqn7kdsmeQ=
+LastUsername=Administrator
+LastComputername=HTP168
+
+[SSH_Hostkeys]
+ssh-ed25519@22:192.168.0.88=0x15317c00b17caaf83bff09c8232ae4f8b736eef453d8919c7cf4676bbd596266,0x48239ea60819212647bcb05cdb9c74af3dc073b4cd372874c47555c17ab6240b
+ssh-ed25519@22:127.0.0.1=0x657d3615e95b3c7f338fd8f9911ccbaf397e0f29906b2ed2857b3b01e590c3e8,0x56a8a6a4c6253ff41793924c15b5274ca38364bb5de8475d0780fbe274a4cdae
+
+[Bookmarks]
+SubRep=
+ImgNum=42
+127.0.0.1 (root)=#109#0%127.0.0.1%22%root%%0%-1%%%%%0%0%0%%%0%0%0%0%%1080%%0%0%0#MobaFont%10%0%0%-1%15%208,208,208%28,28,28%255,175,0%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0%0%-1#0# #-1
+192.168.0.88 (admin)=#109#0%192.168.0.88%22%admin%%-1%-1%%%%%0%0%0%%%0%0%0%0%%1080%%0%0%0#MobaFont%10%0%0%-1%15%208,208,208%28,28,28%255,175,0%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0%0%-1#0# #-1
+htp168.gotoftp2.com (htp168)=#130#6%htp168.gotoftp2.com%21%htp168%-1%%0%0%0%0%%21%%%0%0%-1%0%0%0%#MobaFont%10%0%0%-1%15%208,208,208%28,28,28%255,175,0%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0%0%-1#0# #-1
 
 [ImportExportSpecials]
 ExportedSettings=Home and Slash directories location|Local terminal settings|Global X server settings|Global SSH settings|Services settings|MobaXterm interface settings|Sessions|Macros|Stored passwords|Stored credentials|SSH tunnels|MobaTextEditor and MobaDiff settings|WSL settings|Custom syntaxes|Shared sessions|Suppressed message dialogs
 mobauser@mobaserver=sci8GTbnReTxp/7tyQFNDi9slduJP2c=
-MobaVersion=21.4
-ExportDate=2022-06-03
-ExportTime=16:41:01
+MobaVersion=21.5
+ExportDate=2022-06-15
+ExportTime=16:21:55
 ExportUsername=Administrator
-ExportComputer=DESKTOP-80PG5FJ
+ExportComputer=HTP168
 
