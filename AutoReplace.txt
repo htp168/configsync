@@ -5,7 +5,7 @@ orderby = order by desc;
 update = update t set where 1=1 ;
 delete = delete from t where 1=1 ;
 insert = insert into select * from where 1=1 ;
-exists = exists (select 1 from dual t where 1=1)
+exists = exists (select 1 from dual t1 where 1=1)
 forupdate = for update;
 declare = declare begin end;
 selectinto = select * into from t where 1=1 ;
@@ -22,6 +22,9 @@ foreach = for (:) {}
 while = while () {}
 dowhile = do {} while ();
 sysout = System.out.println();
-main = public static void main(String[] args) {}
-method = void methodName () {}
-class = class ClassName {}
+psvm = public static void main(String[] args) {}
+pvf = public void name () {}
+psf = public String name () {}
+pif = public integer name () {}
+pdf = public float name () {}
+pc = public class Name {}
