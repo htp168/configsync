@@ -7,8 +7,6 @@
 	{ "keys": ["ctrl+k", "ctrl+s"], "command": "save_all" },
 	{ "keys": ["ctrl+f11"], "command": "build" },
 	{ "keys": ["ctrl+t"], "command": "goto_symbol_in_project" },
-	{ "keys": ["e", "e"], "command": "revert" },
-	{ "keys": ["q", "q"], "command": "close_all" },
 	{ "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
 	{ "keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false}}
 ]
