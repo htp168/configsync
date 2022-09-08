@@ -5,7 +5,9 @@ Sublime Text环境配置
 
 #### 同步说明
 
-1.  同步路径：<安装目录>\Data\Packages\User
+1.  同步路径：
+    * Windows <安装目录>\Data\Packages\User
+    * Ubuntu ~/.config/sublime-text-3/Packages/User
 
 2.  配置说明：
     * Default (Windows).sublime-keymap：

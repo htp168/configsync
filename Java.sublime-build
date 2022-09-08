@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"shell_cmd": "javac -d %CLASSPATH% ${file} & java ${file_base_name}",
 	"working_dir": "${project_path:${folder}}",
@@ -5,3 +6,12 @@
 	"selector": "source.java",
 	"encoding": "cp936",
 }
+=======
+{
+	"shell_cmd": "javac -d %CLASSPATH% ${file} & java ${file_base_name}",
+	"working_dir": "${project_path:${folder}}",
+	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+	"selector": "source.java",
+	"encoding": "utf-8",
+}
+>>>>>>> 164c588b2415ea07bcf6f19ebc106adb545584ba
