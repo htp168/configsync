@@ -1,6 +1,5 @@
 {
-	"shell_cmd": "rd /s /q ${folder}\\src\\main\\webapp\\WEB-INF\\classes\\* && for /r {folder} %i in (*.java) do @echo %i >> ${folder}\\sources.list && javac -cp ${folder}\\src\\main\\webapp\\WEB-INF\\lib\\*;. -d ${folder}\\src\\main\\webapp\\WEB-INF\\classes @${folder}\\sources.list",
-	"working_dir": "${project_path:${folder}}",
+	"shell_cmd": "rd /s /q ${folder}\\src\\main\\webapp\\WEB-INF\\classes\\cn && del /q ${folder}\\sources.list && for /r ${folder} %i in (*.java) do @echo %i >> ${folder}\\sources.list && javac -encoding utf8 -cp ${folder}\\src\\main\\webapp\\WEB-INF\\lib\\*;. -d ${folder}\\src\\main\\webapp\\WEB-INF\\classes @${folder}\\sources.list", 
 	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
 	"selector": "source.java",
 	"encoding": "cp936"
