@@ -1,5 +1,5 @@
 {
-	"shell_cmd": "rm -rf ${folder}/src/main/webapp/WEB-INF/classes/* && find ${folder} -name *.java -type f > ${folder}/sources.list && javac -cp .:${folder}/src/main/webapp/WEB-INF/lib/* -d ${folder}/src/main/webapp/WEB-INF/classes @${folder}/sources.list",
+	"shell_cmd": "rm -rf ${folder}/src/main/webapp/WEB-INF/classes/* && cp -r ${folder}/src/main/resources/* ${folder}/src/main/webapp/WEB-INF/classes/ && find ${folder} -name *.java -type f > ${folder}/sources.list && javac -cp .:${folder}/src/main/webapp/WEB-INF/lib/* -d ${folder}/src/main/webapp/WEB-INF/classes @${folder}/sources.list",
 	"working_dir": "${project_path:${folder}}",
 	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
 	"selector": "source.java",
