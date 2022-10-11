@@ -1,5 +1,5 @@
 {
-     "shell_cmd": "rd /s /q ${folder}\\target\\WEB-INF & xcopy ${folder}\\src\\main\\webapp\\WEB-INF ${folder}\\target\\WEB-INF & md ${folder}\\target\\classes & xcopy ${folder}\\src\\main\\resources ${folder}\\target\\classes\\resources /E/Y & del /q ${folder}\\sources.list & for /r ${folder} %i in (*.java) do @echo %i >> ${folder}\\sources.list && javac -encoding utf8 -cp ${folder}\\target\\WEB-INF\\lib\\*;. -d ${folder}\\target\\WEB-INF\\classes @${folder}\\sources.list", 
+     "shell_cmd": "rd /s /q ${folder}\\target\\WEB-INF & xcopy /E/Y ${folder}\\src\\main\\webapp\\WEB-INF ${folder}\\target\\WEB-INF & md ${folder}\\target\\classes & xcopy /E/Y ${folder}\\src\\main\\resources ${folder}\\target\\classes\\resources & dir ${folder}\\*.java /s/b/a:-d > ${folder}\\sources.list && javac -encoding utf8 -cp ${folder}\\target\\WEB-INF\\lib\\*;. -d ${folder}\\target\\WEB-INF\\classes @${folder}\\sources.list", 
      "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
     "selector": "source.java",
     "encoding": "cp936"
