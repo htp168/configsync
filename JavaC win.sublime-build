@@ -1,5 +1,5 @@
 {
-     "shell_cmd": "rd /s/q ${folder}\\target\\WEB-INF & echo d | xcopy /e/s ${folder}\\src\\main\\webapp\\WEB-INF ${folder}\\target\\WEB-INF > null & echo d | xcopy /e/s ${folder}\\src\\main\\resources ${folder}\\target\\WEB-INF\\resources > null & dir ${folder}\\*.java /s/b/a:-d > ${folder}\\sources.list && javac -encoding utf8 -cp ${folder}\\target\\WEB-INF\\lib\\*;. -d ${folder}\\target\\WEB-INF\\classes @${folder}\\sources.list", 
+     "shell_cmd": "rd /S/Q ${folder}\\target\\WEB-INF & echo D | xcopy /E/S/Q ${folder}\\src\\main\\webapp\\WEB-INF ${folder}\\target\\WEB-INF & echo D | xcopy /E/S/Q ${folder}\\src\\main\\resources ${folder}\\target\\WEB-INF\\resources & dir ${folder}\\*.java /s/b/a:-d > ${folder}\\sources.list && javac -encoding utf8 -cp ${folder}\\target\\WEB-INF\\lib\\*;. -d ${folder}\\target\\WEB-INF\\classes @${folder}\\sources.list", 
      "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
     "selector": "source.java",
     "encoding": "cp936"
