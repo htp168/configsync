@@ -1,0 +1,1 @@
+cursor cur is select [#] from ;

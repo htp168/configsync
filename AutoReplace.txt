@@ -1,20 +1,21 @@
-select* = select t.* from dual t where 1=1 ;
 like = like '%%'
 between = between and ;
 orderby = order by desc;
-update = update set where 1=1 ;
-delete = delete from t where 1=1 ;
-insert = insert into values();
-insertinto = insert into select * from where 1=1 ;
 exists = exists (select 1 from dual t1 where 1=1)
 forupdate = for update;
-declare = declare begin end;
-selectinto = select * into from t where 1=1 ;
-cursor = cursor cur is select from ;
-putline = dbms_output.put_line();
-** = /*--------*/
-if = if then end if;
-ifelse = if then else end if;
-ifelif = if then elsif then else end if;
-for = for loop end loop;
-while = while loop end loop;
+select1 = Custom/select1.tpl
+select* = Custom/select.tpl
+selectinto = Custom/selectinto.tpl
+update = Custom/update.tpl
+delete = Custom/delete.tpl
+insert = Custom/insert.tpl
+declare = Custom/declare.tpl
+cursor = Custom/cursor.tpl
+dbout = Custom/dbout.tpl
+** = Custom/comment.tpl
+if = Custom/if.tpl
+ifelse = Custom/ifelse.tpl
+ifelif = Custom/ifelif.tpl
+for = Custom/forloop.tpl
+cursorloop = Custom/cursorloop.tpl
+while = Custom/whileloop.tpl

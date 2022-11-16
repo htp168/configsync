@@ -10,6 +10,7 @@ PL/SQL Developer环境配置
 2.  配置说明：
     * Configuration.ini：pl/sql developer导出全局配置文件
     * AutoReplace.txt：代码助手模板文件
+    * Template：代码模板目录
 
 3.  执行操作：
     ```git
