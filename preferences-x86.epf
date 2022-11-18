@@ -1,4 +1,4 @@
-#Fri Nov 18 12:17:35 CST 2022
+#Fri Nov 18 15:11:46 CST 2022
 \!/=
 /configuration/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
 /configuration/org.eclipse.epp.mpc.ui/showOpenFavoritesNotification=false
@@ -9,6 +9,8 @@
 /configuration/org.eclipse.ui.ide/SHOW_WORKSPACE_SELECTION_DIALOG=false
 /instance/org.eclipse.ant.ui/useAnnotationsPrefPage=true
 /instance/org.eclipse.ant.ui/useQuickDiffPrefPage=true
+/instance/org.eclipse.core.resources/description.buildorder=Servers/javaee/servlet
+/instance/org.eclipse.core.resources/description.defaultbuildorder=false
 /instance/org.eclipse.core.resources/encoding=UTF-8
 /instance/org.eclipse.core.resources/refresh.enabled=true
 /instance/org.eclipse.core.resources/version=1
@@ -60,6 +62,9 @@
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=warning
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.release=disabled
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.source=11
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.taskCaseSensitive=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.taskPriorities=NORMAL,HIGH,NORMAL
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.taskTags=TODO,FIXME,XXX
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.formatter.align_assignment_statements_on_columns=false
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.formatter.align_fields_grouping_blank_lines=2147483647
 /instance/org.eclipse.jdt.core/org.eclipse.jdt.core.formatter.align_type_members_on_columns=false
@@ -443,6 +448,7 @@
 /instance/org.eclipse.jdt.junit.core/org.eclipse.jdt.junit.enable_assertions=true
 /instance/org.eclipse.jdt.junit/org.eclipse.jdt.junit.content_assist_favorite_static_members_migrated=true
 /instance/org.eclipse.jdt.junit/org.eclipse.jdt.junit.show_in_all_views=false
+/instance/org.eclipse.jdt.launching/org.eclipse.jdt.launching.PREF_DEFAULT_ENVIRONMENTS_XML=
 /instance/org.eclipse.jdt.launching/org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1668408182126">\r\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n        <vm id\="1668408182126" name\="jdk-11.0.17" path\="C\:\\Program Files\\Java\\jdk-11.0.17"/>\r\n    </vmType>\r\n</vmSettings>\r\n
 /instance/org.eclipse.jdt.ui/content_assist_autoactivation_triggers_java=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.
 /instance/org.eclipse.jdt.ui/content_assist_disable_completion_trigger_chars=true
@@ -575,6 +581,8 @@
 /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.Background=242,242,242
 /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.Background.SystemDefault=false
 /instance/org.eclipse.ui.editors/overviewRuler_migration=migrated_3.1
+/instance/org.eclipse.ui.ide/IMPORT_FILES_AND_FOLDERS_MODE=prompt
+/instance/org.eclipse.ui.ide/IMPORT_FILES_AND_FOLDERS_VIRTUAL_FOLDER_MODE=prompt
 /instance/org.eclipse.ui.ide/PROBLEMS_FILTERS_MIGRATE=true
 /instance/org.eclipse.ui.ide/SWITCH_PERSPECTIVE_ON_PROJECT_CREATION=never
 /instance/org.eclipse.ui.ide/TASKS_FILTERS_MIGRATE=true
