@@ -691,10 +691,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @ClassName Demo03
+ * @ClassName ${class_name}
  * @Description 类定义描述 HttpServlet类
  * @Author htp168
- * @Date 2022年11月19日 下午11:08:11
+ * @Date ${date} ${time}
  * @version 1.0.0
  */
 @WebServlet("/${class_name}")
