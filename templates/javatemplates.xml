@@ -209,8 +209,6 @@ import java.util.Map;&#13;
  */&#13;
 public interface ${class_name}&lt;E&gt; {&#13;
 &#13;
-	private ${class_name}() {}&#13;
-&#13;
     /*&#13;
      * Description: 类方法描述 查询所有&#13;
      */&#13;
