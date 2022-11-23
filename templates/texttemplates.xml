@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.eclipse.mylyn.wikitext.ui.editor" deleted="false" description="README.md" enabled="true" name="readme">## 功能名称：&#13;
+### 1. 功能描述&#13;
+&#13;
+### 2. 输入&amp;输出&#13;
+```Java&#13;
+ /** 字段：名称   */ &#13;
+ type field;&#13;
+&#13;
+/**&#13;
+ * 方法描述：&#13;
+ * 参数：&#13;
+ * 返回值：&#13;
+ */&#13;
+ void method() {&#13;
+ &#13;
+ }					&#13;
+```&#13;
+### 3. 功能接口&#13;
+&#13;
+### 4. 功能实现</template></templates>
