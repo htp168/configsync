@@ -1,1 +1,4 @@
-dbms_output.put_line( [#] );
+;
+begin
+  dbms_output.put_line( [#] );
+end;
