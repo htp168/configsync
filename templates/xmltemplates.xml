@@ -49,15 +49,20 @@
   &lt;update id="&lt;接口方法名称&gt;"&gt;
     // SQL语名
   &lt;/update&gt;
-&lt;/mapper&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="No Namespace Schema Location" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.noschemaLoc" name="noschemaLoc">xsi:noNamespaceSchemaLocation="{location}"</template><template autoinsert="true" context="xml_attribute" deleted="false" description="XML Schema location attribute" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.schemaLoc" name="schemaLoc">xsi:schemaLocation="{namespace} {location}"</template><template autoinsert="true" context="xml_all" deleted="false" description="servlet-web" enabled="true" name="servlet-web">&lt;web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0"&gt;
-  &lt;servlet&gt;
-    &lt;servlet-name&gt;&lt;/servlet-name&gt;
-    &lt;servlet-class&gt;&lt;/servlet-class&gt;
-  &lt;/servlet&gt;
-  &lt;servlet-mapping&gt;
-    &lt;servlet-name&gt;&lt;/servlet-name&gt;
-    &lt;url-pattern&gt;&lt;/url-pattern&gt;
-  &lt;/servlet-mapping&gt;
+&lt;/mapper&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="No Namespace Schema Location" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.noschemaLoc" name="noschemaLoc">xsi:noNamespaceSchemaLocation="{location}"</template><template autoinsert="true" context="xml_attribute" deleted="false" description="XML Schema location attribute" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.schemaLoc" name="schemaLoc">xsi:schemaLocation="{namespace} {location}"</template><template autoinsert="true" context="xml_all" deleted="false" description="servlet-web" enabled="true" name="servlet-web">&lt;web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&#13;
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"&#13;
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"&#13;
+	id="WebApp_ID" version="4.0"&gt;&#13;
+	&lt;!--&#13;
+	&lt;servlet&gt;&#13;
+		&lt;servlet-name&gt;&lt;/servlet-name&gt;&#13;
+		&lt;servlet-class&gt;&lt;/servlet-class&gt;&#13;
+	&lt;/servlet&gt;&#13;
+	&lt;servlet-mapping&gt;&#13;
+		&lt;servlet-name&gt;&lt;/servlet-name&gt;&#13;
+		&lt;url-pattern&gt;&lt;/url-pattern&gt;&#13;
+	&lt;/servlet-mapping&gt;&#13;
+	--&gt;&#13;
 &lt;/web-app&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="spring-applicationContext.xml" enabled="true" name="spring-applicationContext">&lt;beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
