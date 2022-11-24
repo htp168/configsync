@@ -716,25 +716,91 @@ public class ${class_name} extends HttpServlet {
     }
 
     /*
-     * Description: 类方法描述 重写HttpServlet的doGet方法
+     * Description: 模板方法 重写HttpServlet的service方法
      * @see javax.servlet.http.HttpServlet#doGet(javax.servlet.http.HttpServletRequest,
      * javax.servlet.http.HttpServletResponse)
      */
-    protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-        doPost(req, res);
+    @Override
+    protected void service(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
+         String servletPath = request.getServletPath();
+         if ("/${class_name}/doList".equals(servletPath)) {
+         doList(request, response);
+         } else if ("/${class_name}/doSave".equals(servletPath)) {
+         doSave(request, response);
+         } else if ("/${class_name}/doEdit".equals(servletPath)) {
+         doEdit(request, response);
+         } else if ("/${class_name}/doDetail".equals(servletPath)) {
+         doDetail(request, response);
+         } else if ("/${class_name}/doDelete".equals(servletPath)) {
+         doRemove(request, response);
+         } else if ("/${class_name}/doModify".equals(servletPath)) {
+         doModify(request, response);
+         }
     }
 
     /*
-     * Description: 类方法描述 重写HttpServlet的doPost方法
-     * @see javax.servlet.http.HttpServlet#doPost(javax.servlet.http.HttpServletRequest,
-     * javax.servlet.http.HttpServletResponse)
+     * Description: 子方法 doList方法
      */
-    protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+    private void doList(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         res.setContentType("text/html;charset=UTF-8");
         PrintWriter out = res.getWriter();
-        // 编写具体业务方法 TODO
+        // 业务方法 doList
         
     }
+
+    /*
+     * Description: 子方法 doDetail
+     */
+    private void doDetail(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+        res.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = res.getWriter();
+        // 业务方法 doDetail
+        
+    }
+    
+    /*
+     * Description: 子方法 doEdit
+     */
+    private void doEdit(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+        res.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = res.getWriter();
+        // 业务方法 doEdit
+        
+    }
+
+    /*
+     * Description: 子方法 doRemove
+     */
+    private void doRemove(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+        res.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = res.getWriter();
+        // 业务方法 doRemove
+        
+    }
+
+    /*
+     * Description: 子方法 doModify
+     */
+    private void doModify(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+        res.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = res.getWriter();
+        // 业务方法 doModify
+        
+    }
+
+    /*
+     * Description: 子方法 doSave
+     */    
+    private void doSave(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+        res.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = res.getWriter();
+        // 业务方法 doSave
+        
+    }
+
 }</template><template autoinsert="false" context="swt-statements" deleted="false" description="new Shell" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.swt.shell" name="Shell">${shellType:newType(org.eclipse.swt.widgets.Shell)} ${shell:newName(org.eclipse.swt.widgets.Shell)} = new ${shellType}(${parent:var(org.eclipse.swt.widgets.Shell)}, ${style:link('SWT.DIALOG_TRIM | SWT.PRIMARY_MODAL', 'SWT.DIALOG_TRIM | SWT.MODELESS', 'SWT.SHELL_TRIM | SWT.MODELESS', 'SWT.SHELL_TRIM | SWT.PRIMARY_MODAL')});
 ${shell}.setLayout(new ${layoutType:newType(org.eclipse.swt.layout.GridLayout)}(${numberColumns:link(1, 2, 3, 4, 5)}, ${equalColumns:link(false, true)}));
 
