@@ -1,3 +1,3 @@
 ;
-select count(1) from [#] t where 1=1 
+SELECT COUNT(1) FROM [#] T WHERE 1=1 
 ;

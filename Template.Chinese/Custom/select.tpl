@@ -1,3 +1,3 @@
 ;
-select t.* from [#] t where 1=1 
+SELECT T.* FROM [#] T WHERE 1=1 
 ;

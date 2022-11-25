@@ -1,4 +1,4 @@
-if <true>
-then
+IF <TRUE>
+THEN
   [#]
-end if;
+END IF;

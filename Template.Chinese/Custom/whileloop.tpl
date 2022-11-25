@@ -1,4 +1,4 @@
-while <true>
-loop
+WHILE <TRUE>
+LOOP
   [#]
-end loop;
+END LOOP;

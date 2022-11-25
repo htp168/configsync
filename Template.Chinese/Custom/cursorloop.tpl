@@ -1,8 +1,8 @@
-declare
-  cursor cur is select [#] from ;
-begin
-  for <param> in cur
-  loop
+DECLARE
+  CURSOR CUR IS SELECT [#] FROM ;
+BEGIN
+  FOR <PARAM> IN CUR
+  LOOP
 
-  end loop;
-end;
+  END LOOP;
+END;

@@ -1,6 +1,7 @@
 ;
---update [#]
-set
---select count(1) from 
-where 1=1
+--UPDATE [#]
+SET
+--SELECT COUNT(1) FROM 
+WHERE 1=1
+
 ;

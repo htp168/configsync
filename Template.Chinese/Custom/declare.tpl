@@ -1,5 +1,5 @@
-declare
-  [#]<param> <type> := <value>;
-begin
+DECLARE
+  [#]<PARAM> <TYPE> := <VALUE>;
+BEGIN
   
-end;
+END;

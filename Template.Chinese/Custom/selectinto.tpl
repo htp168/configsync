@@ -1,3 +1,6 @@
 ;
-insert into <param>, <param>, <param> select [#] from  where 1=1 
+INSERT INTO <PARAM>, <PARAM>, <PARAM> SELECT [#] 
+FROM  
+WHERE 1=1 
+
 ;

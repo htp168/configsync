@@ -1,4 +1,4 @@
-for cur in (select [#] from  where 1=1 )
-loop
+FOR CUR IN (SELECT [#] FROM  WHERE 1=1 )
+LOOP
   
-end loop;
+END LOOP;

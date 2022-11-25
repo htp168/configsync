@@ -1,8 +1,8 @@
-if <true>
-then
+IF <TRUE>
+THEN
   [#]
-elsif <true>
+ELSIF <TRUE>
 
-elsif <true>
+ELSIF <TRUE>
 
-end if;
+END IF;
