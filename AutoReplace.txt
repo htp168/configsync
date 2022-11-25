@@ -19,3 +19,4 @@ ifelif = Custom/ifelif.tpl
 for = Custom/forloop.tpl
 cursorloop = Custom/cursorloop.tpl
 while = Custom/whileloop.tpl
+package = Custom/package.tpl
