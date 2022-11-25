@@ -1,4 +1,4 @@
-CREATE OR REPLACE PACKAGE [#]<Package_Name> IS
+CREATE OR REPLACE PACKAGE [#]<PACKAGE_NAME> IS
 
        -- AUTHOR:  HTP168
        -- CREATED: 
@@ -11,4 +11,4 @@ CREATE OR REPLACE PACKAGE [#]<Package_Name> IS
                  Pv_Msg IN VARCHAR2
                  );
                                                     
-END <Package_Name>;
+END <PACKAGE_NAME>;
