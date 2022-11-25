@@ -1,5 +1,5 @@
 DECLARE
-  [#]<PARAM> <TYPE> := <VALUE>;
+  [#]PARAM TYPE := VALUE;
 BEGIN
   
 END;

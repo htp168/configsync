@@ -1,0 +1,3 @@
+;
+--DROP PACKAGE [#]PACKAGE_NAME
+;

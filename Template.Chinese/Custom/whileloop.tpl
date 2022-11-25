@@ -1,4 +1,4 @@
-WHILE <TRUE>
+WHILE TRUE
 LOOP
   [#]
 END LOOP;

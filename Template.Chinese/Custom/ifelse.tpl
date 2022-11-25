@@ -1,4 +1,4 @@
-IF <TRUE>
+IF TRUE
 THEN
   [#]
 ELSE

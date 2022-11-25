@@ -1,8 +1,8 @@
-CREATE OR REPLACE PACKAGE [#]<PACKAGE_NAME> IS
+CREATE OR REPLACE PACKAGE [#]PACKAGE_NAME IS
 
        -- AUTHOR:  HTP168
        -- CREATED: 
-       --DESCRIBE:
+       -- DESCRIBE:
 
        PROCEDURE Process_Request(
                  Errbuf  OUT VARCHAR2,
@@ -11,4 +11,14 @@ CREATE OR REPLACE PACKAGE [#]<PACKAGE_NAME> IS
                  Pv_Msg IN VARCHAR2
                  );
                                                     
-END <PACKAGE_NAME>;
+END PACKAGE_NAME;
+
+
+CREATE OR REPLACE PACKAGE BODY PACKAGE_NAME IS
+
+       -- AUTHOR:  HTP168
+       -- CREATED: 
+       -- DESCRIBE:
+
+                                                    
+END PACKAGE_NAME;
