@@ -19,7 +19,8 @@
       &lt;scope&gt;test&lt;/scope&gt;&#13;
     &lt;/dependency&gt;&#13;
   &lt;/dependencies&gt;&#13;
-&lt;/project&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="mybatis-config" enabled="true" name="mybatis-config">&lt;!DOCTYPE configuration
+&lt;/project&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="mybatis-config" enabled="true" name="mybatis-config">&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE configuration
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-config.dtd"&gt;
 &lt;configuration&gt;
@@ -39,7 +40,8 @@
     &lt;mapper resource="&lt;mapper映射xml文件路径&gt;"/&gt;
     &lt;mapper class="&lt;mapper接口全限定名称&gt;"/&gt;
   &lt;/mappers&gt;
-&lt;/configuration&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="mybatis-mapper" enabled="true" name="mybatis-mapper">&lt;!DOCTYPE mapper
+&lt;/configuration&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="mybatis-mapper" enabled="true" name="mybatis-mapper">&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd"&gt;
 &lt;mapper namespace="&lt;mapper接口全限定名称&gt;"&gt;
