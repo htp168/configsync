@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="xml_tag" deleted="false" description="xml comment" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.comment" name="comment">&lt;!-- ${cursor} --&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="Default Namespace Attribute" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.defaultnsp" name="default namespace">xmlns="default namespace"</template><template autoinsert="true" context="xml_all" deleted="false" description="pom.xml" enabled="true" name="maven-pom">&lt;project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="xml_tag" deleted="false" description="xml comment" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.comment" name="comment">&lt;!-- ${cursor} --&gt;</template><template autoinsert="true" context="xml_attribute" deleted="false" description="Default Namespace Attribute" enabled="true" id="org.eclipse.wst.xml.ui.internal.templates.defaultnsp" name="default namespace">xmlns="default namespace"</template><template autoinsert="true" context="xml_all" deleted="false" description="generatorConfig.xml" enabled="true" name="generatorconfig">&lt;!DOCTYPE generatorConfiguration PUBLIC
+ "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+ "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd"&gt;
+&lt;generatorConfiguration&gt;
+  &lt;context id="simple" targetRuntime="MyBatis3"&gt;
+    &lt;jdbcConnection driverClass="org.hsqldb.jdbcDriver"
+        connectionURL="jdbc:hsqldb:mem:aname" /&gt;
+
+    &lt;javaModelGenerator targetPackage="example.model" targetProject="src/main/java"/&gt;
+
+    &lt;sqlMapGenerator targetPackage="example.mapper" targetProject="src/main/resources"/&gt;
+
+    &lt;javaClientGenerator type="XMLMAPPER" targetPackage="example.mapper" targetProject="src/main/java"/&gt;
+
+    &lt;table tableName="FooTable" /&gt;
+  &lt;/context&gt;
+&lt;/generatorConfiguration&gt;</template><template autoinsert="true" context="xml_all" deleted="false" description="pom.xml" enabled="true" name="maven-pom">&lt;project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&#13;
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;&#13;
   &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;&#13;
  &#13;
