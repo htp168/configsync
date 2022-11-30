@@ -1,5 +1,7 @@
+;
 DECLARE
   [#]PARAM TYPE := VALUE;
 BEGIN
   
 END;
+/

@@ -1,0 +1,10 @@
+;
+DECLARE
+    TYPE TYPE_RECORD IS RECORD(
+        [#]
+    );
+    TMP_TYPE_RECORD TYPE_RECORD;
+BEGIN
+    
+END;
+/
