@@ -1,3 +1,3 @@
 ;
---DROP PACKAGE [#]PACKAGE_NAME
+--drop package [#]package_name
 ;

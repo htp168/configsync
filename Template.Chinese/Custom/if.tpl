@@ -1,4 +1,5 @@
-IF TRUE
-THEN
+;
+if true
+then
   [#]
-END IF;
+end if;

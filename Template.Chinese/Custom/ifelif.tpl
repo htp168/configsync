@@ -1,8 +1,8 @@
-IF TRUE
-THEN
-  [#]
-ELSIF FALSE
+;
+if [#] then
+  
+elsif false
 
-ELSIF FALSE
+elsif false
 
-END IF;
+end if;

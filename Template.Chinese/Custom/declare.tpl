@@ -1,7 +1,7 @@
 ;
-DECLARE
-  [#]PARAM TYPE := VALUE;
-BEGIN
+declare
+
+begin
   
-END;
+end;
 /

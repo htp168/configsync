@@ -1,8 +1,8 @@
-DECLARE
-  CURSOR CUR IS SELECT [#] FROM ;
-BEGIN
-  FOR PARAM IN CUR
-  LOOP
-
-  END LOOP;
-END;
+;
+declare
+  cursor temp_cur is select [#] from ;
+begin
+  for cur_temp in temp_cur loop
+  
+  end loop;
+end;

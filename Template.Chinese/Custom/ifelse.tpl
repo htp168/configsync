@@ -1,6 +1,6 @@
-IF TRUE
-THEN
-  [#]
-ELSE
+;
+if [#] then
+  
+else
 
-END IF;
+end if;

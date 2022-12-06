@@ -1,5 +1,5 @@
 ;
---INSERT INTO [#] VALUES(
-    VALUE, VALUE
+--insert into [#] values(
+
 )
 ;

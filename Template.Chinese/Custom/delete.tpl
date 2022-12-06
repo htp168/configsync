@@ -1,6 +1,6 @@
 ;
---DELETE FROM [#]
---SELECT COUNT(1) FROM 
-WHERE 1=1
+--delete from [#]
+--select count(1) from 
+where 1=1
 
 ;

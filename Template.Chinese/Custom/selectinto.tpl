@@ -1,6 +1,6 @@
 ;
-INSERT INTO PARAM, PARAM, PARAM SELECT [#] 
-FROM  
-WHERE 1=1 
+insert into [#] select  
+from  
+where 1=1 
 
 ;

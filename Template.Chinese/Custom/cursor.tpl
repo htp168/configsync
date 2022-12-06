@@ -1,1 +1,1 @@
-CURSOR CUR IS SELECT [#] FROM ;
+cursor name_cur is select [#] from ;
