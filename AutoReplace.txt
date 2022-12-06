@@ -21,5 +21,5 @@ cursorloop = Custom/cursorloop.tpl
 while? = Custom/whileloop.tpl
 package? = Custom/package.tpl
 drop? = Custom/drop.tpl
-dectable = Custom/dectable.tpl
-decrecord = Custom/decrecord.tpl
+dectab = Custom/dectab.tpl
+decrec = Custom/decrec.tpl
