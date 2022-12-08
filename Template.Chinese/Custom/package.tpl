@@ -1,25 +1,21 @@
 ;
 create or replace package temp_name_pkg is
 
-       -- author:  htp168
-       -- created: 
-       -- describe:
+   -- author:  htp168
+   -- created: 
+   -- describe:
 
-       procedure process_request(
-                 errbuf  out varchar2,
-                 retcode out varchar2, 
-                 pv_params in varchar2, 
-                 pv_msg in varchar2
-                 );
-                                                    
-end temp_name_pkg;
+  -- Public type declarations
+  -- type <TypeName> is <Datatype>;
+  
+  -- Public constant declarations
+  -- <ConstantName> constant <Datatype> := <Value>;
 
+  -- Public variable declarations
+  -- <VariableName> <Datatype>;
 
-create or replace package body temp_name_pkg is
+  -- Public function and procedure declarations
+  -- function <FunctionName>(<Parameter> <Datatype>) return <Datatype>;
 
-       -- author:  htp168
-       -- created: 
-       -- describe:
-
-                                                    
+                   
 end temp_name_pkg;
