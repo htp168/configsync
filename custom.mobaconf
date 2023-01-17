@@ -48,6 +48,7 @@ LastSession=htp168.gotoftp2.com (htp168)|#130#6%htp168.gotoftp2.com%21%htp168%-1
 WhenToPromptForMasterPassword=0
 LogFileFormat=
 LogFolder=
+SidebarStyle=0
 
 [Passwords]
 mobauser@mobaserver=sci8GTbnReTxp/7tyQFNDi9slduJP2c=
@@ -166,9 +167,9 @@ XINERAMA=1
 [WindowPos_HTP168_1600_900]
 CompactMode=1
 MonitorCount=1
-Left=316
-Top=265
-Width=892
+Left=216
+Top=194
+Width=826
 Height=530
 Maximized=0
 SidebarVisible=0
@@ -268,7 +269,7 @@ ExportedSettings=Home and Slash directories location|Local terminal settings|Glo
 mobauser@mobaserver=sci8GTbnReTxp/7tyQFNDi9slduJP2c=
 MobaVersion=21.5
 ExportDate=2023-01-17
-ExportTime=12:05:20
+ExportTime=12:16:28
 ExportUsername=Administrator
 ExportComputer=HTP168
 
