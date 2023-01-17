@@ -166,9 +166,9 @@ XINERAMA=1
 [WindowPos_HTP168_1600_900]
 CompactMode=1
 MonitorCount=1
-Left=320
-Top=236
-Width=717
+Left=316
+Top=265
+Width=892
 Height=530
 Maximized=0
 SidebarVisible=0
@@ -184,22 +184,6 @@ Height=530
 Maximized=0
 SidebarVisible=0
 SidebarWidth=240
-
-[TopToolbarBtns]
-Btn0=Session
-Btn1=Servers
-Btn2=Tools
-Btn3=Games
-Btn4=Sessions
-Btn5=View
-Btn6=Split
-Btn7=MultiExec
-Btn8=Tunneling
-Btn9=Packages
-Btn10=Settings
-Btn11=Help
-Btn12=X server
-Btn13=Exit
 
 [EditorWindowPos_1280_800_96]
 Left=-8
@@ -263,12 +247,28 @@ htp168.gotoftp2.com (htp168)=#130#6%htp168.gotoftp2.com%21%htp168%-1%%0%0%0%0%%2
 localhost (root)=#140#7%localhost%22%root%-1%0%%0%0%%0%%1080%%%%0#MobaFont%10%0%0%-1%15%208,208,208%28,28,28%255,175,0%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0%0%-1#0# #-1
 S3-dfadsfasdfasdfasdf=#343#13%dfadsfasdfasdfasdf#MobaFont%10%0%0%-1%15%208,208,208%28,28,28%255,175,0%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0%0%-1#0# #-1
 
+[TopToolbarBtns]
+Btn0=Session
+Btn1=Servers
+Btn2=Tools
+Btn3=Games
+Btn4=Sessions
+Btn5=View
+Btn6=Split
+Btn7=MultiExec
+Btn8=Tunneling
+Btn9=Packages
+Btn10=Settings
+Btn11=Help
+Btn12=X server
+Btn13=Exit
+
 [ImportExportSpecials]
 ExportedSettings=Home and Slash directories location|Local terminal settings|Global X server settings|Global SSH settings|Services settings|MobaXterm interface settings|Sessions|Macros|Stored passwords|Stored credentials|SSH tunnels|MobaTextEditor and MobaDiff settings|WSL settings|Custom syntaxes|Shared sessions|Suppressed message dialogs
 mobauser@mobaserver=sci8GTbnReTxp/7tyQFNDi9slduJP2c=
 MobaVersion=21.5
 ExportDate=2023-01-17
-ExportTime=12:01:49
+ExportTime=12:05:20
 ExportUsername=Administrator
 ExportComputer=HTP168
 
