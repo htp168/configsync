@@ -20,8 +20,8 @@ Sublime Text环境配置
     * Preferences.sublime-settings：
     * Python3.sublime-build：
     * Snippet.sublime-completions：    
-    * Vintage.sublime-package：sublime中使用vim，更改快捷键映射
-    * Vintage.default.sublime-package：sublime中使用vim系统默认快捷键
+    * python.sublime-snppet：
+    * Packages为插件包，将插件包拷贝到Installed Packages目录即可，如安装官网插件慢，可到github上下载zip文件，将后缀改为.sublime-package（压缩包不含多余目录）
     * …… 后续补充
 
 3.  执行操作：
@@ -41,4 +41,4 @@ Sublime Text环境配置
     ```
 
 4.  补充：
-    * 将Vintage.sublime-package放到sublime text<安装目录>\packages下
+    * 

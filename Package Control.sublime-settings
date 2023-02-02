@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"channels":
 	[
+		"/home/htp168/.config/sublime-text-3/Packages/User/channels_v3.json",
 		"http://cst.stu.126.net/u/json/cms/channel_v3.json",
 		"https://packagecontrol.io/channel_v3.json",
 		"http://static.bolin.site/channel_v3.json"
@@ -14,6 +15,7 @@
 		"ConvertToUTF8",
 		"Git",
 		"JavaIME",
+		"MarkdownEditing",
 		"Package Control",
 		"Virtualenv"
 	]
