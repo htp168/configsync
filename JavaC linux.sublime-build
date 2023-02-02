@@ -1,7 +1,0 @@
-{
-    "shell_cmd": "rm -rf ${folder}/target/WEB-INF/ && cp -r ${folder}/src/main/webapp/WEB-INF/ ${folder}/target/ && cp -r ${folder}/src/main/resources ${folder}/target/WEB-INF/classes/ && find ${folder} -name *.java -type f > ${folder}/sources.list && javac -cp .:${folder}/target/WEB-INF/lib/* -d ${folder}/target/WEB-INF/classes @${folder}/sources.list",
-    "working_dir": "${project_path:${folder}}",
-    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
-    "selector": "source.java",
-    "encoding": "utf-8"
-}
