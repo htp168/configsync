@@ -1,5 +1,7 @@
 <snippet>
     <content><![CDATA[
+#encoding:utf8
+#!/usr/bin/python3        
 '''
 * Filepath:      $TM_FILEPATH
 * Filename:      $TM_FILENAME
