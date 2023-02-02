@@ -1,0 +1,8 @@
+{
+  // Replace with your own path to cmder.exe
+  // Cmd on Windows
+  "terminal": "C:\\Windows\\System32\\cmd.exe", 
+  "parameters": ["/START", "%CWD%"],
+  // xterm on GNU/Linux
+  // "terminal": "xterm", 
+}

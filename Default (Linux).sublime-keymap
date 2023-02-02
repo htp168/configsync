@@ -6,10 +6,12 @@
         { "keys": ["ctrl+k", "ctrl+m"], "command": "toggle_menu" },
         { "keys": ["ctrl+k", "ctrl+s"], "command": "save_all" },
         { "keys": ["ctrl+f11"], "command": "build" },
+        { "keys": ["ctrl+b"], "caption": "SublimeREPL:Python", "command": "run_existing_window_command", "args": {"id": "repl_python_run", "file": "config/Python/Main.sublime-menu"}},        
         { "keys": ["ctrl+t"], "command": "goto_symbol_in_project" },
         { "keys": ["e", "e"], "command": "revert" },
         { "keys": ["q", "q"], "command": "close_all" },
         { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
-        { "keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false}}
+        { "keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false}},
+        { "keys": ["ctrl+alt+t"], "command": "open_terminal", "args": { "parameters": ["-T", "Custom Window Title"] }}    
 ]
 

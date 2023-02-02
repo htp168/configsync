@@ -9,5 +9,6 @@
     { "keys": ["ctrl+b"], "caption": "SublimeREPL:Python", "command": "run_existing_window_command", "args": {"id": "repl_python_run", "file": "config/Python/Main.sublime-menu"}},    
     { "keys": ["ctrl+t"], "command": "goto_symbol_in_project" },
     { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
-    { "keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false}}
+    { "keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false}},
+    { "keys": ["ctrl+alt+t"], "command": "open_terminal", "args": { "parameters": ["-T", "Custom Window Title"] }}    
 ]
