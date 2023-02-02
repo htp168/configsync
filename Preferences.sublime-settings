@@ -1,9 +1,4 @@
 {
-	"channels":
-	[
-		"http://cst.stu.126.net/u/json/cms/channel_v3.json",
-		"https://packagecontrol.io/channel_v3.json"
-	],
 	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 	"expand_tabs_on_save": true,
 	"highlight_line": true,
