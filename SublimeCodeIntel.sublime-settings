@@ -1,0 +1,24 @@
+{
+    "codeintel_language_settings": {
+        "Python3": {
+            "python3": "C:\\Program Files\\python\\python",
+            "codeintel_scan_extra_dir": [
+                // config windows python env path 
+                "C:\\Program Files\\python",
+                "C:\\Program Files\\python\\python37.zip", 
+                "C:\\Program Files\\python\\DLLs", 
+                "C:\\Program Files\\python\\lib", 
+                "C:\\Program Files\\python\\lib\\*", 
+                "C:\\Program Files\\python\\lib\\site-packages",
+                // config linux python env path
+
+            ],
+            "codeintel_scan_files_in_project": true,
+            "codeintel_selected_catalogs": []
+        },
+    }
+}
+
+
+
+

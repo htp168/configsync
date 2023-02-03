@@ -10,5 +10,5 @@
     { "keys": ["ctrl+t"], "command": "goto_symbol_in_project" },
     { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
     { "keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false}},
-    { "keys": ["ctrl+alt+t"], "command": "open_terminal", "args": { "parameters": ["-T", "Custom Window Title"] }}    
+    { "keys": ["ctrl+alt+t"], "command": "open_terminal", "args": { "parameters": ["-T", "Custom Window Title"] }},
 ]
