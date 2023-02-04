@@ -1,0 +1,18 @@
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+docker_exec_sh(){
+  docker exec -it $1 sh -c "$2"
+}
+
+alias dc='docker-compose'
+alias dsh='docker_exec_sh'
+alias dcp='docker cp'
+alias dil='docker image ls'
+alias dnl='docker network ls'
+alias dvl='docker volume ls'
+alias dps='docker ps -a'
+alias drm='docker rm -f'
+alias dri='docker rmi -f'
+alias open='xdg-open'
