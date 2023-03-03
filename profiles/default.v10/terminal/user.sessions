@@ -26,5 +26,17 @@
         "ssh.authPublicKey" : true,
         "ssh.identityFilePath" : ".wind\\profiles\\default.v10\\ssh\\id_rsa",
         "ssh.verifyServerFingerprint" : false
+    },
+    {
+        "process.arguments" : "C:/Windows/system32/WindowsPowerShell/v1.0/powershell.exe",
+        "process.workingDirectory" : "./.wind",
+        "session.autoExecution" : "git add . && git commit -m upload && git push",
+        "session.icon" : "session::powershell",
+        "session.label" : "admin:powershell",
+        "session.protocol" : "Shell",
+        "session.system" : "powershell",
+        "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
+        "session.uuid" : "fb7c112c-ad4c-4a6e-99e2-f8950a8da1df",
+        "window.caretStyle" : "blinking line"
     }
 ]
