@@ -30,9 +30,9 @@
     {
         "process.arguments" : "C:/Windows/system32/WindowsPowerShell/v1.0/powershell.exe",
         "process.workingDirectory" : "./.wind",
-        "session.autoExecution" : "git add . && git commit -m upload && git push",
+        "session.autoExecution" : "git add . | git commit -m upload | git push",
         "session.icon" : "session::powershell",
-        "session.label" : "admin:powershell",
+        "session.label" : "synconf",
         "session.protocol" : "Shell",
         "session.system" : "powershell",
         "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
