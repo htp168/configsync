@@ -29,6 +29,7 @@
     },
     {
         "process.arguments" : "C:/Windows/system32/WindowsPowerShell/v1.0/powershell.exe",
+        "process.locale" : "Automatic",
         "process.workingDirectory" : "./.wind",
         "session.autoExecution" : "git add . | git commit -m upload | git push",
         "session.icon" : "session::powershell",
