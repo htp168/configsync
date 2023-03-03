@@ -32,6 +32,7 @@
         "process.locale" : "Automatic",
         "process.workingDirectory" : "./.wind",
         "session.autoExecution" : "git add . | git commit -m upload | git push | git pull origin wind",
+        "session.autoExecutionDelay" : 0,
         "session.icon" : "session::powershell",
         "session.label" : "synconf",
         "session.protocol" : "Shell",
