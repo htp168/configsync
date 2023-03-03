@@ -1,8 +1,8 @@
 [
     {
         "session.autoLogin" : "iScqSEIEt1ivppVIDkz6zqyZUd80HSyYiDfQdRWyTISQms/CifnXDaKPSFkiQAgvowqFZswb7oWz+B5qekexFBngSgbw2BFHhHEKM+OkpQ6BBvu5ZvlyhbT5VQBBxJMv2meAb//ZxcFPTpi84NyFOuy1yIzk1Jl/aDhzDiAk2UfQVzi3nFDD+43944Q1G9vLiz/e388ZBIciNhsRtHAhBjOFiADb4XV0WsIXR5FtILj32z0pEIIUhXM37VXk65Cr",
-        "session.icon" : "session::kali",
-        "session.label" : "virtualhost",
+        "session.icon" : "session::square-darkturquoise",
+        "session.label" : "127.0.0.1",
         "session.port" : 22,
         "session.protocol" : "SSH",
         "session.target" : "root@127.0.0.1",
@@ -10,6 +10,21 @@
         "ssh.authGssapiWithMic" : false,
         "ssh.authKeyboardInteractive" : false,
         "ssh.authPublicKey" : false,
+        "ssh.verifyServerFingerprint" : false
+    },
+    {
+        "session.autoLogin" : "lGEGpEzx7ksx1Q+TrmY5AI/VhKGjxWCJSiHBie0+riAxPj0vms8JvgE34hRoHPh+IB+ikV2llWUEzZYMpefTAsEveSBp+0hfPq9gbiSElY9WdKynqeyOWmC+2hREhhZOEnPx4KNOE/Qzrr0qoJ2Lbwe5Fwztggx/S06zPVcwdtFpu439uW9JErxcnQhuT73XYHk0PUilAoOnBDo+/y+lnQ7wkwdH/GTOllgPjKeUmDdbrUyKNcVoUh0fAznRCiWpBXXNOzaJcJMQceyLGk3zXZqcMfVK2781fRNnbMWjZPw=",
+        "session.icon" : "session::square-coral",
+        "session.label" : "10.172.16.100",
+        "session.port" : 22,
+        "session.protocol" : "SSH",
+        "session.target" : "proxmox@10.172.16.100",
+        "session.uuid" : "7acb0d2e-fdb6-4c38-9a84-3e1457a2e345",
+        "ssh.authGssapiWithMic" : false,
+        "ssh.authKeyboardInteractive" : false,
+        "ssh.authPassword" : true,
+        "ssh.authPublicKey" : true,
+        "ssh.identityFilePath" : ".wind\\profiles\\default.v10\\ssh\\id_rsa",
         "ssh.verifyServerFingerprint" : false
     }
 ]
