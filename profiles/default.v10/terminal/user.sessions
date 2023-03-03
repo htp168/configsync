@@ -1,0 +1,15 @@
+[
+    {
+        "session.autoLogin" : "iScqSEIEt1ivppVIDkz6zqyZUd80HSyYiDfQdRWyTISQms/CifnXDaKPSFkiQAgvowqFZswb7oWz+B5qekexFBngSgbw2BFHhHEKM+OkpQ6BBvu5ZvlyhbT5VQBBxJMv2meAb//ZxcFPTpi84NyFOuy1yIzk1Jl/aDhzDiAk2UfQVzi3nFDD+43944Q1G9vLiz/e388ZBIciNhsRtHAhBjOFiADb4XV0WsIXR5FtILj32z0pEIIUhXM37VXk65Cr",
+        "session.icon" : "session::kali",
+        "session.label" : "virtualhost",
+        "session.port" : 22,
+        "session.protocol" : "SSH",
+        "session.target" : "root@127.0.0.1",
+        "session.uuid" : "95d34a30-52fc-42c8-9341-475dfd8469d1",
+        "ssh.authGssapiWithMic" : false,
+        "ssh.authKeyboardInteractive" : false,
+        "ssh.authPublicKey" : false,
+        "ssh.verifyServerFingerprint" : false
+    }
+]
