@@ -40,5 +40,17 @@
         "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
         "session.uuid" : "fb7c112c-ad4c-4a6e-99e2-f8950a8da1df",
         "window.caretStyle" : "blinking line"
+    },
+    {
+        "process.arguments" : "C:\\Windows\\System32\\cmd.exe",
+        "process.workingDirectory" : "C:\\Program Files (x86)\\Tools\\AWSCLIV2",
+        "session.autoExecution" : "aws --version",
+        "session.icon" : "session::powershell",
+        "session.label" : "aws-cli",
+        "session.protocol" : "Shell",
+        "session.system" : "powershell",
+        "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
+        "session.uuid" : "27508755-c48f-4d1d-b58b-e9b8580e763b",
+        "window.caretStyle" : "blinking line"
     }
 ]
