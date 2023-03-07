@@ -69,14 +69,14 @@
         "ssh.verifyServerFingerprint" : false
     },
     {
-        "process.arguments" : "C:/Windows/system32/cmd.exe  /s /k \"$(AppDir)/vendors/clink/clink_x64.exe\" inject",
+        "process.arguments" : "C:/Windows/system32/WindowsPowerShell/v1.0/powershell.exe",
         "process.workingDirectory" : "$(HomeDir)",
-        "session.icon" : "session::cmd",
-        "session.label" : "admin:cmd",
+        "session.icon" : "session::powershell",
+        "session.label" : "admin:powershell",
         "session.protocol" : "Shell",
-        "session.system" : "cmd",
+        "session.system" : "powershell",
         "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
-        "session.uuid" : "6cd1bfc1-d582-4965-b31a-e974e0e7580d",
+        "session.uuid" : "225c2111-e755-45e8-bfe8-05dfd8aef340",
         "window.caretStyle" : "blinking line"
     }
 ]
