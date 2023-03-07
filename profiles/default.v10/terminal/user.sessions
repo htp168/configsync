@@ -52,5 +52,31 @@
         "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
         "session.uuid" : "27508755-c48f-4d1d-b58b-e9b8580e763b",
         "window.caretStyle" : "blinking line"
+    },
+    {
+        "session.autoLogin" : "iScqSEIEt1ivppVIDkz6zqyZUd80HSyYiDfQdRWyTISQms/CifnXDaKPSFkiQAgvowqFZswb7oWz+B5qekexFA0egeExjqpe+M377TcZo3IXi1a1t2Wa360QDeBHm3fkdw7B8lG/3x6N1+7aYgVCoLlpF2QJVTHnp+npL+nBxFP789YDfpFr1jD4tn8bq/pwaw70K3kTuW8EzTLmA2Su1e+nHd5i5oJQsNDxWjBOd4fDiJICU6TH1d6G5PrTnaJP",
+        "session.icon" : "session::square-coral",
+        "session.label" : "10.172.16.201",
+        "session.port" : 22,
+        "session.protocol" : "SSH",
+        "session.target" : "root@10.172.16.201",
+        "session.uuid" : "325d35c6-89f0-4fb4-973e-695f84aeb14f",
+        "ssh.authGssapiWithMic" : false,
+        "ssh.authKeyboardInteractive" : false,
+        "ssh.authPassword" : true,
+        "ssh.authPublicKey" : false,
+        "ssh.identityFilePath" : "",
+        "ssh.verifyServerFingerprint" : false
+    },
+    {
+        "process.arguments" : "C:/Windows/system32/cmd.exe  /s /k \"$(AppDir)/vendors/clink/clink_x64.exe\" inject",
+        "process.workingDirectory" : "$(HomeDir)",
+        "session.icon" : "session::cmd",
+        "session.label" : "admin:cmd",
+        "session.protocol" : "Shell",
+        "session.system" : "cmd",
+        "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
+        "session.uuid" : "6cd1bfc1-d582-4965-b31a-e974e0e7580d",
+        "window.caretStyle" : "blinking line"
     }
 ]
