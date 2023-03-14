@@ -42,18 +42,6 @@
         "window.caretStyle" : "blinking line"
     },
     {
-        "process.arguments" : "C:\\Windows\\System32\\cmd.exe",
-        "process.workingDirectory" : "C:\\Program Files (x86)\\Tools\\AWSCLIV2",
-        "session.autoExecution" : "aws --version",
-        "session.icon" : "session::powershell",
-        "session.label" : "aws-cli",
-        "session.protocol" : "Shell",
-        "session.system" : "powershell",
-        "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
-        "session.uuid" : "27508755-c48f-4d1d-b58b-e9b8580e763b",
-        "window.caretStyle" : "blinking line"
-    },
-    {
         "session.autoLogin" : "iScqSEIEt1ivppVIDkz6zqyZUd80HSyYiDfQdRWyTISQms/CifnXDaKPSFkiQAgvowqFZswb7oWz+B5qekexFA0egeExjqpe+M377TcZo3IXi1a1t2Wa360QDeBHm3fkdw7B8lG/3x6N1+7aYgVCoLlpF2QJVTHnp+npL+nBxFP789YDfpFr1jD4tn8bq/pwaw70K3kTuW8EzTLmA2Su1e+nHd5i5oJQsNDxWjBOd4fDiJICU6TH1d6G5PrTnaJP",
         "session.icon" : "session::square-coral",
         "session.label" : "10.172.16.201",
@@ -77,6 +65,19 @@
         "session.system" : "powershell",
         "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
         "session.uuid" : "225c2111-e755-45e8-bfe8-05dfd8aef340",
+        "window.caretStyle" : "blinking line"
+    },
+    {
+        "process.arguments" : "C:/Windows/system32/WindowsPowerShell/v1.0/powershell.exe",
+        "process.workingDirectory" : "C:\\Program Files (x86)\\Tools\\Awscliv2",
+        "session.autoExecution" : "aws version",
+        "session.autoExecutionDelay" : 0,
+        "session.icon" : "session::powershell",
+        "session.label" : "aws-cli",
+        "session.protocol" : "Shell",
+        "session.system" : "powershell",
+        "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
+        "session.uuid" : "25d752ca-e75e-4c3c-9842-6debd086b32a",
         "window.caretStyle" : "blinking line"
     }
 ]
