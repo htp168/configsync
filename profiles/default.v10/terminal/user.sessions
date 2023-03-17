@@ -79,5 +79,20 @@
         "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
         "session.uuid" : "25d752ca-e75e-4c3c-9842-6debd086b32a",
         "window.caretStyle" : "blinking line"
+    },
+    {
+        "session.autoLogin" : "1jLeySFmCnqehSfRCA0V2hUlCRG3SvyEC/4ApkWpCPISPnWdwI7fF9mpdbqhEAscHkygQgjKVcdgT3brreCQi8XloTruO0i9B/O7hmrST6AnGguF8IAOVjpOBX7CBvAWJBaLmXfYZYiXxuyDQTUCTG7hGDU0+P4Q4berO4znL/hmYOFzZi/A/GrGKEdfXWksVt5uRgRo9LP7X+YqIIr24NPk4CMvpeRjbF/h8+AhBTh15SjiF/HaZJajlYJ361G+",
+        "session.icon" : "session::square-coral",
+        "session.label" : "14.29.215.158",
+        "session.port" : 22,
+        "session.protocol" : "SSH",
+        "session.target" : "bsl@14.29.215.158",
+        "session.uuid" : "9321c75f-32e3-4287-bc05-c14edb28ae02",
+        "ssh.authGssapiWithMic" : false,
+        "ssh.authKeyboardInteractive" : false,
+        "ssh.authPassword" : true,
+        "ssh.authPublicKey" : false,
+        "ssh.identityFilePath" : ".wind\\profiles\\default.v10\\ssh\\id_rsa",
+        "ssh.verifyServerFingerprint" : false
     }
 ]
