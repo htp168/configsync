@@ -1,0 +1,44 @@
+{
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
+    "editor.codeLens": true,
+    "editor.minimap.enabled": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": -1,
+    "files.autoGuessEncoding": true,
+    "java.home": "C:\\Program Files\\Java\\jdk1.8.0_202",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "C:\\Program Files\\Java\\jdk1.8.0_202",
+            "sources": "C:\\Program Files\\Java\\jdk1.8.0_202\\src.zip",
+            "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api",
+            "default": true
+        },
+    ],
+    "java.configuration.maven.userSettings": "C:\\Program Files\\maven\\conf\\settings.xml",
+    "maven.executable.path": "C:\\Program Files\\maven\\bin\\mvn",
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "C:\\Program Files\\Java\\jdk1.8.0_202"
+        },
+    ],
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "none",
+    "update.showReleaseNotes": false,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "java.requirements.JDK11Warning": false,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.semanticHighlighting.enabled": false,
+    "git.allowForcePush": true,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.alwaysSignOff": true,
+    "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
+    "editor.inlineSuggest.enabled": true,
+    "workbench.layoutControl.enabled": false,
+}

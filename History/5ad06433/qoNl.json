@@ -45,7 +45,6 @@
         "<C-a>": false,
         "<C-f>": false
     },
-    "editor.minimap.enabled": false,
-    "java.semanticHighlighting.enabled": true
+    "editor.minimap.enabled": false
 }
 
