@@ -1,17 +1,5 @@
 {
-    "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
     "editor.inlineSuggest.enabled": true,
-    "window.zoomLevel": -1,
-    "java.configuration.runtimes": [
-        {
-            "name": "JavaSE-1.8",
-            "path": "C:\\Program Files\\Java\\jdk1.8.0_202",
-            "sources": "C:\\Program Files\\Java\\jdk1.8.0_202\\src.zip",
-            "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api",
-            "default": true
-        }
-    ],
-    "maven.executable.path": "C:\\Program Files\\maven\\bin\\mvn",
     "workbench.layoutControl.enabled": false,
     "workbench.startupEditor": "none",
     "vim.easymotion": true,
@@ -46,6 +34,12 @@
         "<C-f>": false
     },
     "editor.minimap.enabled": false,
-    "java.semanticHighlighting.enabled": true
+    "java.semanticHighlighting.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+    "security.workspace.trust.untrustedFiles": "open"
 }
-
