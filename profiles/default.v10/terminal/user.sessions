@@ -2,7 +2,7 @@
     {
         "session.autoLogin" : "iScqSEIEt1ivppVIDkz6zqyZUd80HSyYiDfQdRWyTISQms/CifnXDaKPSFkiQAgvowqFZswb7oWz+B5qekexFBngSgbw2BFHhHEKM+OkpQ6BBvu5ZvlyhbT5VQBBxJMv2meAb//ZxcFPTpi84NyFOuy1yIzk1Jl/aDhzDiAk2UfQVzi3nFDD+43944Q1G9vLiz/e388ZBIciNhsRtHAhBjOFiADb4XV0WsIXR5FtILj32z0pEIIUhXM37VXk65Cr",
         "session.icon" : "session::square-darkturquoise",
-        "session.label" : "127.0.0.1",
+        "session.label" : "localhost",
         "session.port" : 22,
         "session.protocol" : "SSH",
         "session.target" : "root@127.0.0.1",
@@ -15,7 +15,7 @@
     {
         "session.autoLogin" : "lGEGpEzx7ksx1Q+TrmY5AI/VhKGjxWCJSiHBie0+riAxPj0vms8JvgE34hRoHPh+IB+ikV2llWUEzZYMpefTAsEveSBp+0hfPq9gbiSElY9WdKynqeyOWmC+2hREhhZOEnPx4KNOE/Qzrr0qoJ2Lbwe5Fwztggx/S06zPVcwdtFpu439uW9JErxcnQhuT73XYHk0PUilAoOnBDo+/y+lnQ7wkwdH/GTOllgPjKeUmDdbrUyKNcVoUh0fAznRCiWpBXXNOzaJcJMQceyLGk3zXZqcMfVK2781fRNnbMWjZPw=",
         "session.icon" : "session::square-coral",
-        "session.label" : "10.172.16.100",
+        "session.label" : "pveserver",
         "session.port" : 22,
         "session.protocol" : "SSH",
         "session.target" : "proxmox@10.172.16.100",
@@ -44,7 +44,7 @@
     {
         "session.autoLogin" : "iScqSEIEt1ivppVIDkz6zqyZUd80HSyYiDfQdRWyTISQms/CifnXDaKPSFkiQAgvowqFZswb7oWz+B5qekexFA0egeExjqpe+M377TcZo3IXi1a1t2Wa360QDeBHm3fkdw7B8lG/3x6N1+7aYgVCoLlpF2QJVTHnp+npL+nBxFP789YDfpFr1jD4tn8bq/pwaw70K3kTuW8EzTLmA2Su1e+nHd5i5oJQsNDxWjBOd4fDiJICU6TH1d6G5PrTnaJP",
         "session.icon" : "session::square-coral",
-        "session.label" : "10.172.16.201",
+        "session.label" : "jumpserver",
         "session.port" : 22,
         "session.protocol" : "SSH",
         "session.target" : "root@10.172.16.201",
@@ -60,7 +60,7 @@
         "process.arguments" : "C:/Windows/system32/WindowsPowerShell/v1.0/powershell.exe",
         "process.workingDirectory" : "$(HomeDir)",
         "session.icon" : "session::powershell",
-        "session.label" : "admin:powershell",
+        "session.label" : "powershell",
         "session.protocol" : "Shell",
         "session.system" : "powershell",
         "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
@@ -69,7 +69,7 @@
     },
     {
         "process.arguments" : "C:/Windows/system32/WindowsPowerShell/v1.0/powershell.exe",
-        "process.workingDirectory" : "C:\\Program Files (x86)\\Tools\\Awscliv2",
+        "process.workingDirectory" : "C:\\Users\\Administrator",
         "session.autoExecution" : "aws version",
         "session.autoExecutionDelay" : 0,
         "session.icon" : "session::powershell",
@@ -83,10 +83,11 @@
     {
         "session.autoLogin" : "1jLeySFmCnqehSfRCA0V2hUlCRG3SvyEC/4ApkWpCPISPnWdwI7fF9mpdbqhEAscHkygQgjKVcdgT3brreCQi8XloTruO0i9B/O7hmrST6AnGguF8IAOVjpOBX7CBvAWJBaLmXfYZYiXxuyDQTUCTG7hGDU0+P4Q4berO4znL/hmYOFzZi/A/GrGKEdfXWksVt5uRgRo9LP7X+YqIIr24NPk4CMvpeRjbF/h8+AhBTh15SjiF/HaZJajlYJ361G+",
         "session.icon" : "session::square-coral",
-        "session.label" : "14.29.215.158",
+        "session.label" : "ctyun",
         "session.port" : 22,
         "session.protocol" : "SSH",
         "session.target" : "bsl@14.29.215.158",
+        "session.term" : "xterm",
         "session.uuid" : "9321c75f-32e3-4287-bc05-c14edb28ae02",
         "ssh.authGssapiWithMic" : false,
         "ssh.authKeyboardInteractive" : false,
@@ -94,5 +95,18 @@
         "ssh.authPublicKey" : false,
         "ssh.identityFilePath" : ".wind\\profiles\\default.v10\\ssh\\id_rsa",
         "ssh.verifyServerFingerprint" : false
+    },
+    {
+        "process.arguments" : "C:/Windows/system32/WindowsPowerShell/v1.0/powershell.exe",
+        "process.workingDirectory" : "C:\\Users\\Administrator",
+        "session.autoExecution" : "terraform -v",
+        "session.autoExecutionDelay" : 0,
+        "session.icon" : "session::powershell",
+        "session.label" : "terraform",
+        "session.protocol" : "Shell",
+        "session.system" : "powershell",
+        "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
+        "session.uuid" : "5af0a748-3105-4a39-b1d3-85f59bebf658",
+        "window.caretStyle" : "blinking line"
     }
 ]
