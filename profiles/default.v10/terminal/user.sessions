@@ -68,19 +68,6 @@
         "window.caretStyle" : "blinking line"
     },
     {
-        "process.arguments" : "C:/Windows/system32/WindowsPowerShell/v1.0/powershell.exe",
-        "process.workingDirectory" : "C:\\Users\\Administrator",
-        "session.autoExecution" : "aws version",
-        "session.autoExecutionDelay" : 0,
-        "session.icon" : "session::powershell",
-        "session.label" : "aws-cli",
-        "session.protocol" : "Shell",
-        "session.system" : "powershell",
-        "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
-        "session.uuid" : "25d752ca-e75e-4c3c-9842-6debd086b32a",
-        "window.caretStyle" : "blinking line"
-    },
-    {
         "session.autoLogin" : "1jLeySFmCnqehSfRCA0V2hUlCRG3SvyEC/4ApkWpCPISPnWdwI7fF9mpdbqhEAscHkygQgjKVcdgT3brreCQi8XloTruO0i9B/O7hmrST6AnGguF8IAOVjpOBX7CBvAWJBaLmXfYZYiXxuyDQTUCTG7hGDU0+P4Q4berO4znL/hmYOFzZi/A/GrGKEdfXWksVt5uRgRo9LP7X+YqIIr24NPk4CMvpeRjbF/h8+AhBTh15SjiF/HaZJajlYJ361G+",
         "session.icon" : "session::square-coral",
         "session.label" : "ctyun",
@@ -95,18 +82,5 @@
         "ssh.authPublicKey" : false,
         "ssh.identityFilePath" : ".wind\\profiles\\default.v10\\ssh\\id_rsa",
         "ssh.verifyServerFingerprint" : false
-    },
-    {
-        "process.arguments" : "C:/Windows/system32/WindowsPowerShell/v1.0/powershell.exe",
-        "process.workingDirectory" : "C:\\Users\\Administrator",
-        "session.autoExecution" : "terraform -v",
-        "session.autoExecutionDelay" : 0,
-        "session.icon" : "session::powershell",
-        "session.label" : "terraform",
-        "session.protocol" : "Shell",
-        "session.system" : "powershell",
-        "session.target" : "$(AppDir)/vendors/gsudo/gsudo.exe",
-        "session.uuid" : "5af0a748-3105-4a39-b1d3-85f59bebf658",
-        "window.caretStyle" : "blinking line"
     }
 ]
