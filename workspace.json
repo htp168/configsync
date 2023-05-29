@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "d610f61f5ba78d10",
+    "type": "split",
+    "children": [
+      {
+        "id": "d00d2e0dfd7b865f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85cd63841b3418b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "一劳永逸解决 Obsidian 图床与上传——利用企业微信进行剪藏网页_软件应用_什么值得买.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c808e95806852d05",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a905f4e0085551e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79714c823e3fd787",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0100c3bf9c3f93a2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a5208203a870e674",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "550a5bb2e73dcfe8",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fb7353aa108af69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75194ef333984594",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "一劳永逸解决 Obsidian 图床与上传——利用企业微信进行剪藏网页_软件应用_什么值得买.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "29a3ac9d238a4b10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "一劳永逸解决 Obsidian 图床与上传——利用企业微信进行剪藏网页_软件应用_什么值得买.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "baa4c546c2008393",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d5fb30805486b2c1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "一劳永逸解决 Obsidian 图床与上传——利用企业微信进行剪藏网页_软件应用_什么值得买.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "copilot:Copilot Chat": false,
+      "remotely-save:Remotely Save": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "85cd63841b3418b6",
+  "lastOpenFiles": [
+    "Obsidian 利用插件 Remotely-save 实现超低成本全平台云笔记_Positive One 的博客 - CSDN 博客 - Cubox.md",
+    "Obsidian+picogo+github 建造个人 markdown 笔记.md",
+    "untitled.md",
+    "飞书 + 幕布 + Cubox+Obsidian 内容管理 - 知乎 - Cubox.md",
+    "使用简悦剪藏入库 obsidian 的简单配置方法.md",
+    "一劳永逸解决 Obsidian 图床与上传——利用企业微信进行剪藏网页_软件应用_什么值得买.md",
+    "「Cubox」我工作流中的第一环 - 知乎 - Cubox.md",
+    "收藏、阅读、标注，用 Cubox 收纳一切内容 - 少数派 - Cubox.md",
+    "Obsidian 将图片批量上传至图床.md"
+  ]
+}
